@@ -12,35 +12,29 @@ a{
 }
 /* Path: style.css */
 .container{
-display: flex;  
-flex-direction: row;
-background-color: aliceblue;
-width: 320px;
-border: 1px solid white;
-border-radius: 10px;
+background-color: white;
+max-width: 320px;
 margin: auto;
-padding: 10px;
+padding: 16px;
+
 
 }
 .qr{
-width: 300px;
-margin: 20px;
+width: 320px;
+margin: 16px;
 background-color: aliceblue;
+
 }
-.icon{
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1px solid white;
 
-
-height: 220px;
-
-display: flex;
-justify-content: center;
-background-color: aliceblue;
 }
-
 
 .info{
 background-color: aliceblue;
-
+margin: auto;
 
 
 
@@ -51,18 +45,18 @@ background-color: aliceblue;
 p{
 
         background-color: aliceblue;
-}
-
-.c1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 1.5em;
-
-}
-.c2{
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 1em;
-            color: gray;
-    }
+        font-size: 0.9375rem;
+}
+
+h1{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 0.9375rem;
+        text-align: center;
+        background-color: aliceblue;
+}
+
 
 
 
